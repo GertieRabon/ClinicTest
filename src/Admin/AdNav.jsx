@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Admin.module.css";
 import { supabase } from "../supabaseClient"; // ✅ adjust path based on your structure
-import aLogo from "../Assets/dsLogo.svg";
+import logo from "../Assets/logo.svg";
 
 const AdNav = () => {
   const navigate = useNavigate();
@@ -37,7 +37,7 @@ const AdNav = () => {
       <div className={styles["admin-navbar-container"]}>
         <div className={styles["admin-navbar-content"]}>
           <div className={styles["admin-navbar-logo"]}>
-            <img src={aLogo} alt="dsLogo" className={styles["admin-logo"]} />
+            <img src={logo} alt="dsLogo" className={styles["admin-logo"]} />
           </div>
           <div className={styles["admin-navbar-items"]}>
             {navItems.map((item, index) => (
