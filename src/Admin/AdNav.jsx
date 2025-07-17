@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Admin.module.css";
 import { supabase } from "../supabaseClient"; // ✅ adjust path based on your structure
-import aLogo from "../Assets/dsLogo.svg";
+import aLogo from "dsLogo.svg";
 
 const AdNav = () => {
   const navigate = useNavigate();
