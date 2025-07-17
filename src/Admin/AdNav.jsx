@@ -37,7 +37,7 @@ const AdNav = () => {
       <div className={styles["admin-navbar-container"]}>
         <div className={styles["admin-navbar-content"]}>
           <div className={styles["admin-navbar-logo"]}>
-            <img src={aLogo} alt="dsLogo" className={styles["admin-logo"]} />
+            <img src="/dsLogo.svg" alt="dsLogo" className={styles["admin-logo"]} />
           </div>
           <div className={styles["admin-navbar-items"]}>
             {navItems.map((item, index) => (
